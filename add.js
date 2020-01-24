@@ -8,10 +8,19 @@ function add(a,b){
 function displayName(array){
     
     
-    for(let i=0; i<array.length; i++ ){
-        console.log(array[i]) ;
-    } 
+    array.map(value => console.log(value ));
 }
-displayName([]);
+displayName([1, 2, 37]);
+
+// let array = [1, 2, 3,'bibek'];
+
+// console.log(array);
+
+//array.unshift('bisam');
+//console.log(array);
+// console.log(array.length);
+// array.shift();
+// console.log(array);
+
 
 
